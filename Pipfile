@@ -9,6 +9,8 @@ verify_ssl = true
 requests = "*"
 beautifulsoup4 = "*"
 pandas = "*"
+autopep8 = "*"
+python = "*"
 
 [requires]
 python_version = "3.7"
