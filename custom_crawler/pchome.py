@@ -7,6 +7,10 @@ urllib3.util.ssl_.DEFAULT_CIPHERS = 'ALL'
 
 
 class PChome:
+    '''
+    碰到問題：無法用 requests 觸發 javascript 去取回關鍵字的編碼
+    '''
+
     def __init__(self, query):
         self._url = 'https://www.pcstore.com.tw/adm/psearch.htm'
         self._url += '?store_k_word=JUU2JUIwJUEzJUU1JUJBJUE3&slt_k_option=1'
